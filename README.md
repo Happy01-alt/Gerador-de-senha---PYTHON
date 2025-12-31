@@ -7,7 +7,7 @@ pergunta = input("Quer que esta senha tenha números? (s/n)\n")
 
 letras = string.ascii_letters + string.digits
 
-amanho = input("Qual será o tamanho da senha?\n")
+tamanho = input("Qual será o tamanho da senha?\n")
 
 senha = ''.join(random.choice(letras) for i in range(int(tamanho)))
 
